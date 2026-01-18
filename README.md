@@ -1,6 +1,6 @@
 # Locust Behavioral Analysis Pipeline
 
-MATLAB scripts for analyzing ***Schistocerca gregaria*** behavioral data on phase polymphenism and juvenile hormone signaling (Bachelor's thesis).
+MATLAB scripts for analyzing ***Schistocerca gregaria*** behavioral data on phase polyphenism and juvenile hormone signaling (Bachelor's thesis).
 
 ## 📋 **Requirements**
 - **MATLAB** (Statistics Toolbox required).
