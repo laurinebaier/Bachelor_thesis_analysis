@@ -12,7 +12,7 @@ MATLAB scripts for analyzing ***Schistocerca gregaria*** behavioral data on phas
 
 ## 🔄 **Execution Order**
 
-1. **`ArenaAnalysis02plotting.m`** – Computes **PoolData** (PIs, distances), initial plots (*optional: comment out*), `PIdaten.csv`.  
+1. **`PoolData.m`** – Computes **PoolData** (PIs, distances), initial plots (*optional: comment out*), `PIdaten.csv`.  
    *Essential for PoolData generation.*
 
 2. **`locusttable.m`** – Creates/saves **`tablelocustdata.mat`** + `WalkingLong` from PoolData.
@@ -43,9 +43,7 @@ MATLAB scripts for analyzing ***Schistocerca gregaria*** behavioral data on phas
 **Treatments**: `control_locust_saline`, `methoprene`, `control_DMSO`, `precocene_II`, `control_untreated`.
 
 ## ⚠️ **Notes**
-> [!WARNING]  
-> Skip ArenaAnalysis02plotting.m figures? Comment out plotting sections (from "Plotting 1."), manually save PoolData.
-
 > [!CAUTION]  
 > `pxpercm = 38.8` in locustdata.m must be calibrated **per camera/arena** using Fiji/ImageJ (pixel-to-cm conversion for heatmaps).
+
 
